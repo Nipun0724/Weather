@@ -1,5 +1,4 @@
 import { DateTime } from "luxon";
-const api = "c0cede213d495c2f3e4ac6b1a50842d9";
 const base_url = "https://api.openweathermap.org/data/2.5";
 const getWeather = (type, params) => {
   const url = new URL(base_url + "/" + type);
